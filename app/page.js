@@ -332,7 +332,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-800 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
             </a>
             <a
-              href="https://github.com/MRESKYR"
+              href="https://github.com/MRESKY"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 border-2 border-foreground/20 rounded-lg hover:bg-foreground/5 hover:scale-110 hover:rotate-2 hover:border-blue-500 hover:shadow-xl transition-all duration-500 font-medium relative overflow-hidden group"
