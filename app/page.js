@@ -341,7 +341,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/muhammad-resky-rachmanto/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 border-2 border-foreground/20 rounded-lg hover:bg-foreground/5 hover:scale-110 hover:rotate-2 hover:border-blue-500 hover:shadow-xl transition-all duration-500 font-medium relative overflow-hidden group"
