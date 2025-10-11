@@ -13,14 +13,25 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Muhammad Resky Rachmanto - Portfolio",
-  description:
-    "Chemical Engineer, Python Enthusiast, Data Scientist, and Fullstack Developer. Explore my projects and connect with me!",
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/images/logo.png",
+  description: "Chemical Engineer, Data Scientist, and Web Developer. Explore my works and projects!",
+  openGraph: {
+    title: "Muhammad Resky Rachmanto - Portfolio",
+    description: "Chemical Engineer, Data Scientist, and Web Developer.",
+    url: "https://my-portfolio-i7lg0ww4n-mreskys-projects.vercel.app/",
+    siteName: "Portfolio Resky",
+    images: [
+      {
+        url: "/images/preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
   },
 };
+
 
 
 export default function RootLayout({ children }) {
