@@ -239,11 +239,9 @@ export default function Home() {
                 <div className="flex gap-4">
                   <a
                     href="https://github.com/MRESKY/1-Python_Scripting_Text_Morse_Code"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 dark:text-blue-400 hover:underline hover:scale-105 inline-block transition-transform"
+                    className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
                   >
-                    GitHub
+                    View Code
                   </a>
                 </div>
               </div>
@@ -273,11 +271,9 @@ export default function Home() {
                 <div className="flex gap-4">
                   <a
                     href="https://github.com/MRESKY/Game_Snake"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 dark:text-blue-400 hover:underline hover:scale-105 inline-block transition-transform"
+                    className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
                   >
-                    GitHub
+                    View Code
                   </a>
                 </div>
               </div>
@@ -302,7 +298,7 @@ export default function Home() {
                 </p>
                 <div className="flex gap-2 flex-wrap mb-4">
                   <span className="px-3 py-1 bg-yellow-500/20 text-yellow-600 dark:text-yellow-400 rounded text-sm hover:scale-110 transition-transform">Python</span>
-                  <span className="px-3 py-1 bg-red-500/20 text-red-600 dark:text-red-400 rounded text-sm hover:scale-110 transition-transform">Tkinter</span>
+                  <span className="px-3 py-1 bg-green-500/20 text-green-600 dark:text-green-400 rounded text-sm hover:scale-110 transition-transform">Pygame</span>
                 </div>
                 <div className="flex gap-4">
                   <a
