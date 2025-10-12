@@ -283,7 +283,39 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Project 3 - Private Projects */}
+            {/* Project 3 - Tic Tac Toe */}
+            <div className="bg-background border border-foreground/10 rounded-lg overflow-hidden hover:shadow-2xl hover:-translate-y-4 hover:rotate-2 hover:scale-105 transition-all duration-500 group cursor-pointer relative">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-red-500 to-yellow-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+              <div className="relative overflow-hidden">
+                <img
+                  src="/images/tictactoe.png"
+                  alt="Tic Tac Toe Project"
+                  className="h-48 w-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2 group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors">Tic Tac Toe Game</h3>
+                <p className="text-foreground/70 mb-4">
+                  A classic Tic Tac Toe game implemented in Python.
+                  This project helped me practice functions, conditionals, and user input handling in Python.
+                </p>
+                <div className="flex gap-2 flex-wrap mb-4">
+                  <span className="px-3 py-1 bg-yellow-500/20 text-yellow-600 dark:text-yellow-400 rounded text-sm hover:scale-110 transition-transform">Python</span>
+                  <span className="px-3 py-1 bg-red-500/20 text-red-600 dark:text-red-400 rounded text-sm hover:scale-110 transition-transform">Tkinter</span>
+                </div>
+                <div className="flex gap-4">
+                  <a
+                    href="https://github.com/MRESKY/3-Python_Scripting_Tic_Tac_Toe"
+                    className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 4 - Private Projects */}
             <div className="bg-background border border-foreground/10 rounded-lg overflow-hidden hover:shadow-2xl hover:-translate-y-4 hover:rotate-2 hover:scale-105 transition-all duration-500 group cursor-pointer relative">
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
               <div className="relative overflow-hidden">
