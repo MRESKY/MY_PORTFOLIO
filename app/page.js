@@ -311,7 +311,47 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Project 4 - Private Projects */}
+            {/* Project 4 - Automation Data Entry (get hearing information) */}
+            <div className="bg-background border border-foreground/10 rounded-lg overflow-hidden hover:shadow-2xl hover:-translate-y-4 hover:rotate-2 hover:scale-105 transition-all duration-500 group cursor-pointer relative">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+              <div className="relative overflow-hidden">
+                <img
+                  src="/images/automation_data_entry.png"
+                  alt="Automation Data Entry Project"
+                  className="h-48 w-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">Automation Data Entry (Get Hearing Information)</h3>
+                <p className="text-foreground/70 mb-4">
+                  A project focused on automating the data entry process for hearing information.
+                  This involved web scraping, data cleaning, and integration with existing databases.
+                </p>
+                <div className="flex gap-2 flex-wrap mb-4">
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-600 dark:text-blue-400 rounded text-sm hover:scale-110 transition-transform">Python</span>
+                  <span className="px-3 py-1 bg-green-500/20 text-green-600 dark:text-green-400 rounded text-sm hover:scale-110 transition-transform">Beautiful Soup</span>
+                  <span className="px-3 py-1 bg-purple-500/20 text-purple-600 dark:text-purple-400 rounded text-sm hover:scale-110 transition-transform">Selenium</span>
+                </div>
+                <div className="flex gap-4">
+                  <a
+                    href="https://github.com/MRESKY/Data_Entry_Bot1/blob/main/trial_data_entry.py"
+                    className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+                  >
+                    View Code
+                  </a>
+                  {/* link to linkedin post */}
+                  <a
+                    href="https://www.linkedin.com/pulse/web-scraping-automation-dengan-python-beautifulsoup-rachmanto-34fdc/?trackingId=FUXysnHnkuOsmK%2BfMlueKA%3D%3D"
+                    className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+                  >
+                    View LinkedIn Post
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 5 - Private Projects */}
             <div className="bg-background border border-foreground/10 rounded-lg overflow-hidden hover:shadow-2xl hover:-translate-y-4 hover:rotate-2 hover:scale-105 transition-all duration-500 group cursor-pointer relative">
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
               <div className="relative overflow-hidden">
