@@ -1,22 +1,31 @@
 {
-    "name": "Portfolio - Resky Rachmanto",
-    "short_name": "Portfolio",
-    "description": "Professional portfolio showcasing my projects and skills",
+    "name": "Muhammad Resky Rachmanto - Chemical Engineer & Developer Portfolio",
+    "short_name": "Resky Portfolio",
+    "description": "Professional portfolio of Muhammad Resky Rachmanto - Chemical Engineer, Python Developer, Data Scientist showcasing projects and skills in engineering and software development",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#0f172a",
     "theme_color": "#3b82f6",
-    "orientation": "portrait-primary",
+    "orientation": "any",
+    "lang": "en-US",
+    "categories": ["portfolio", "engineering", "development", "technology"],
     "icons": [
         {
-            "src": "/images/logo.png",
-            "sizes": "192x192",
-            "type": "image/png"
+            "src": "/favicon.ico",
+            "sizes": "16x16",
+            "type": "image/x-icon"
         },
         {
             "src": "/images/logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/images/logo.png", 
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         }
     ]
 }

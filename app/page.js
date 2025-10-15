@@ -1,33 +1,102 @@
+// Structured data for homepage
+const homeJsonLd = {
+  "@context": "https://schema.org",
+  "@type": ["Person", "WebPage"],
+  "@id": "https://my-portfolio-mreskys-projects.vercel.app/#person",
+  name: "Muhammad Resky Rachmanto",
+  alternateName: "Resky Rachmanto",
+  jobTitle: ["Chemical Engineer", "Python Developer", "Data Scientist", "Web Developer"],
+  description: "Chemical Engineer, Python Enthusiast, Data Scientist, and Fullstack Developer passionate about technology and innovation.",
+  url: "https://my-portfolio-mreskys-projects.vercel.app/",
+  sameAs: [
+    "https://github.com/mresky",
+    "https://linkedin.com/in/muhammad-resky-rachmanto"
+  ],
+  knowsAbout: [
+    "Chemical Engineering",
+    "Python Programming",
+    "Data Science", 
+    "Machine Learning",
+    "Web Development",
+    "React",
+    "Next.js",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://my-portfolio-mreskys-projects.vercel.app/"
+  }
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen">
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(homeJsonLd),
+        }}
+      />
+      
       {/* Navigation with underline animation */}
-      <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-sm border-b border-foreground/10 z-50 transition-all duration-300 hover:bg-background/90">
+      <nav 
+        className="fixed top-0 w-full bg-background/80 backdrop-blur-sm border-b border-foreground/10 z-50 transition-all duration-300 hover:bg-background/90"
+        role="navigation"
+        aria-label="Main navigation"
+      >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="text-xl font-bold hover:scale-110 transition-transform cursor-pointer">
               Portfolio
             </div>
-            <div className="hidden md:flex space-x-8">
-              <a href="#home" className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group">
+            <div className="hidden md:flex space-x-8" role="menubar">
+              <a 
+                href="#home" 
+                className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
+                role="menuitem"
+                aria-label="Navigate to Home section"
+              >
                 Home
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
               </a>
-              <a href="#about" className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group">
+              <a 
+                href="#about" 
+                className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
+                role="menuitem"
+                aria-label="Navigate to About section"
+              >
                 About
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
               </a>
-              <a href="#skills" className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group">
+              <a 
+                href="#skills" 
+                className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
+                role="menuitem"
+                aria-label="Navigate to Skills section"
+              >
                 Skills
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
               </a>
-              <a href="#projects" className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group">
+              <a 
+                href="#projects" 
+                className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
+                role="menuitem"
+                aria-label="Navigate to Projects section"
+              >
                 Projects
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
               </a>
-              <a href="#contact" className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group">
+              <a 
+                href="#contact" 
+                className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
+                role="menuitem"
+                aria-label="Navigate to Contact section"
+              >
                 Contact
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
               </a>
             </div>
           </div>
@@ -63,7 +132,7 @@ export default function Home() {
 
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Hi, I'm <span className="text-blue-600 dark:text-blue-400 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent animate-pulse hover:scale-110 transition-transform cursor-pointer">Resky Rachmanto</span>
+            Hi, I'm <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent animate-pulse hover:scale-110 transition-transform cursor-pointer">Resky Rachmanto</span>
           </h1>
           <p className="text-xl sm:text-2xl text-foreground/70 mb-8 animate-fade-in-delayed">
             Chemical Engineer | Python Enthusiast | Aspiring Data Scientist & Web Developer
