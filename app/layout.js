@@ -47,8 +47,8 @@ export const metadata = {
     canonical: "https://my-portfolio-mreskys-projects.vercel.app/",
   },
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
   },
   icons: {
     icon: "/logo.png", // pastikan file ini ada di folder /public
