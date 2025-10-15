@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://my-portfolio-mreskys-projects.vercel.app/sitemap.xml
+
+# Disallow crawling of irrelevant paths
+Disallow: /_next/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /admin/
+
+# Allow all other content
+Allow: /images/
+Allow: /favicon.ico
+Allow: /site.webmanifest
