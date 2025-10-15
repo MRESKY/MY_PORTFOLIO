@@ -144,7 +144,7 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="dark scroll-smooth">
       <head>
         {/* Structured Data */}
         <script
@@ -160,10 +160,11 @@ export default function RootLayout({ children }) {
           }}
         />
         
+        
         {/* Additional SEO Meta Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#0070f3" />
-        <meta name="color-scheme" content="light dark" />
+        <meta name="theme-color" content="#0f172a" />
+        <meta name="color-scheme" content="dark" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         
         {/* Preload important resources */}

@@ -43,7 +43,7 @@ export default function Home() {
       
       {/* Navigation with underline animation */}
       <nav 
-        className="fixed top-0 w-full bg-background/80 backdrop-blur-sm border-b border-foreground/10 z-50 transition-all duration-300 hover:bg-background/90"
+        className="fixed top-0 w-full bg-slate-900/80 backdrop-blur-sm border-b border-slate-700/20 z-50 transition-all duration-300 hover:bg-slate-900/90"
         role="navigation"
         aria-label="Main navigation"
       >
@@ -55,48 +55,48 @@ export default function Home() {
             <div className="hidden md:flex space-x-8" role="menubar">
               <a 
                 href="#home" 
-                className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
+                className="relative hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
                 role="menuitem"
                 aria-label="Navigate to Home section"
               >
                 Home
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
               </a>
               <a 
                 href="#about" 
-                className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
+                className="relative hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
                 role="menuitem"
                 aria-label="Navigate to About section"
               >
                 About
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
               </a>
               <a 
                 href="#skills" 
-                className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
+                className="relative hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
                 role="menuitem"
                 aria-label="Navigate to Skills section"
               >
                 Skills
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
               </a>
               <a 
                 href="#projects" 
-                className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
+                className="relative hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
                 role="menuitem"
                 aria-label="Navigate to Projects section"
               >
                 Projects
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
               </a>
               <a 
                 href="#contact" 
-                className="relative hover:text-blue-600 dark:hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
+                className="relative hover:text-blue-400 transition-colors group focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
                 role="menuitem"
                 aria-label="Navigate to Contact section"
               >
                 Contact
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300" aria-hidden="true"></span>
               </a>
             </div>
           </div>
@@ -106,13 +106,13 @@ export default function Home() {
       {/* Hero Section with stars */}
       <section id="home" className="min-h-screen flex items-center justify-center px-4 pt-16 relative overflow-hidden">
         {/* Animated Background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-blue-950 dark:to-purple-950">
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/95 via-slate-800/80 to-slate-700/60">
           {/* Stars Animation */}
           <div className="stars-container absolute inset-0">
             {[...Array(50)].map((_, i) => (
               <div
                 key={i}
-                className="star absolute rounded-full bg-blue-400 dark:bg-blue-300"
+                className="star absolute rounded-full bg-blue-300"
                 style={{
                   width: Math.random() * 3 + 1 + 'px',
                   height: Math.random() * 3 + 1 + 'px',
@@ -126,18 +126,18 @@ export default function Home() {
           </div>
 
           {/* Floating Circles */}
-          <div className="absolute top-20 left-10 w-64 h-64 bg-blue-400/20 dark:bg-blue-400/10 rounded-full blur-3xl animate-float"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-400/20 dark:bg-purple-400/10 rounded-full blur-3xl animate-float-delayed"></div>
+          <div className="absolute top-20 left-10 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl animate-float"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-400/10 rounded-full blur-3xl animate-float-delayed"></div>
         </div>
 
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 animate-fade-in">
             Hi, I'm <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent animate-pulse hover:scale-110 transition-transform cursor-pointer">Resky Rachmanto</span>
           </h1>
-          <p className="text-xl sm:text-2xl text-foreground/70 mb-8 animate-fade-in-delayed">
+          <p className="text-xl sm:text-2xl text-slate-300 mb-8 animate-fade-in-delayed">
             Chemical Engineer | Python Enthusiast | Aspiring Data Scientist & Web Developer
           </p>
-          <p className="text-lg text-foreground/60 mb-12 max-w-2xl mx-auto animate-fade-in-delayed-2">
+          <p className="text-lg text-slate-400 mb-12 max-w-2xl mx-auto animate-fade-in-delayed-2">
             I'm passionate about learning Python, Data Science, and modern web development.
             I enjoy building simple projects and exploring how technology can solve real-world problems.
           </p>
@@ -150,7 +150,7 @@ export default function Home() {
             </a>
             <a
               href="#contact"
-              className="px-8 py-3 border-2 border-foreground/20 rounded-lg hover:bg-foreground/5 hover:scale-105 hover:border-blue-500 transition-all duration-300 font-medium backdrop-blur-sm"
+              className="px-8 py-3 border-2 border-slate-600 rounded-lg hover:bg-slate-800 hover:scale-105 hover:border-blue-500 transition-all duration-300 font-medium backdrop-blur-sm"
             >
               Contact Me
             </a>
@@ -159,7 +159,7 @@ export default function Home() {
       </section>
 
       {/* About Section with decorative elements */}
-      <section id="about" className="py-20 px-4 bg-foreground/5 relative overflow-hidden">
+      <section id="about" className="py-20 px-4 bg-slate-900/60 relative overflow-hidden">
         {/* Decorative animated circles */}
         <div className="absolute top-10 right-10 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl animate-pulse"></div>
         <div className="absolute bottom-10 left-10 w-40 h-40 bg-purple-500/10 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '1s' }}></div>
@@ -274,7 +274,8 @@ export default function Home() {
 
 
       {/* Projects Section with enhanced animations */}
-      <section id="projects" className="py-20 px-4 bg-foreground/5 relative overflow-hidden">
+            {/* Projects Section with enhanced card design */}
+      <section id="projects" className="py-20 px-4 bg-slate-900/60 relative overflow-hidden">
         {/* Floating particles */}
         <div className="absolute top-20 left-20 w-2 h-2 bg-blue-500 rounded-full animate-float opacity-50"></div>
         <div className="absolute top-40 right-40 w-3 h-3 bg-purple-500 rounded-full animate-float-delayed opacity-50"></div>

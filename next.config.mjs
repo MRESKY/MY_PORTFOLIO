@@ -3,6 +3,9 @@ const nextConfig = {
   // SEO and Performance optimizations
   poweredByHeader: false,
   
+  // Development configuration
+  allowedDevOrigins: ['192.168.48.1', 'localhost', '127.0.0.1'],
+  
   // Security headers
   async headers() {
     return [
@@ -39,6 +42,16 @@ const nextConfig = {
   
   // Compression
   compress: true,
+  
+  // Custom rewrites untuk menghindari konflik favicon
+  async rewrites() {
+    return [
+      {
+        source: '/favicon.ico',
+        destination: '/favicon.ico',
+      },
+    ]
+  },
 };
 
 export default nextConfig;
