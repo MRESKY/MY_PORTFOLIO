@@ -46,12 +46,8 @@ export const metadata = {
   alternates: {
     canonical: "https://my-portfolio-mreskys-projects.vercel.app/",
   },
-  robots: {
-    index: false,
-    follow: false,
-  },
   icons: {
-    icon: "/logo.png", // pastikan file ini ada di folder /public
+    icon: "/images/logo.png",
   },
 };
 
@@ -61,7 +57,6 @@ export default function RootLayout({ children }) {
       <head>
         {/* Tag tambahan untuk SEO */}
         <meta name="author" content="Muhammad Resky Rachmanto" />
-        <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
           href="https://my-portfolio-mreskys-projects.vercel.app/"
