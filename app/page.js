@@ -26,7 +26,7 @@ const homeJsonLd = {
   ],
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://my-portfolio-mreskys-projects.vercel.app/"
+    "@id": "https://muhresky.rachmantos.org/"
   }
 };
 
