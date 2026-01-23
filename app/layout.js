@@ -33,7 +33,7 @@ export const metadata = {
     "Machine Learning",
     "AI Developer"
   ],
-  authors: [{ name: "Muhammad Resky Rachmanto", url: "https://my-portfolio-mreskys-projects.vercel.app" }],
+  authors: [{ name: "Muhammad Resky Rachmanto", url: "https://muhresky.rachmantos.org" }],
   creator: "Muhammad Resky Rachmanto",
   publisher: "Muhammad Resky Rachmanto",
   robots: {
@@ -51,11 +51,11 @@ export const metadata = {
     title: "Muhammad Resky Rachmanto | Chemical Engineer & Developer",
     description:
       "Explore my portfolio as a Chemical Engineer and Developer. View my work in Data Science, AI, Machine Learning, and Full-Stack Web Development.",
-    url: "https://my-portfolio-mreskys-projects.vercel.app/",
+    url: "https://muhresky.rachmantos.org/",
     siteName: "Muhammad Resky Rachmanto Portfolio",
     images: [
       {
-        url: "https://my-portfolio-mreskys-projects.vercel.app/images/logo.png",
+        url: "https://muhresky.rachmantos.org/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Muhammad Resky Rachmanto - Chemical Engineer & Developer Portfolio",
@@ -69,12 +69,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Muhammad Resky Rachmanto | Chemical Engineer & Developer", 
     description: "Chemical Engineer, Python Developer, Data Scientist. Explore my portfolio and projects.",
-    images: ["https://my-portfolio-mreskys-projects.vercel.app/images/logo.png"],
+    images: ["https://muhresky.rachmantos.org/images/logo.png"],
     creator: "@mresky",
   },
-  metadataBase: new URL("https://my-portfolio-mreskys-projects.vercel.app"),
+  metadataBase: new URL("https://muhresky.rachmantos.org"),
   alternates: {
-    canonical: "https://my-portfolio-mreskys-projects.vercel.app/",
+    canonical: "https://muhresky.rachmantos.org/",
   },
   icons: {
     icon: [
@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Muhammad Resky Rachmanto",
-    url: "https://my-portfolio-mreskys-projects.vercel.app/",
+    url: "https://muhresky.rachmantos.org/",
     jobTitle: ["Chemical Engineer", "Full Stack Developer", "Data Scientist"],
     worksFor: {
       "@type": "Organization",
@@ -121,7 +121,7 @@ export default function RootLayout({ children }) {
     ],
     image: {
       "@type": "ImageObject",
-      url: "https://my-portfolio-mreskys-projects.vercel.app/images/logo.png",
+      url: "https://muhresky.rachmantos.org/images/logo.png",
       width: 800,
       height: 600
     },
@@ -136,7 +136,7 @@ export default function RootLayout({ children }) {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Muhammad Resky Rachmanto Portfolio",
-    url: "https://my-portfolio-mreskys-projects.vercel.app/",
+    url: "https://muhresky.rachmantos.org/",
     description: "Official portfolio website showcasing projects and skills in Chemical Engineering and Software Development",
     author: {
       "@type": "Person",
