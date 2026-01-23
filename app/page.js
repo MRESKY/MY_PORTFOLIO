@@ -2,12 +2,12 @@
 const homeJsonLd = {
   "@context": "https://schema.org",
   "@type": ["Person", "WebPage"],
-  "@id": "https://my-portfolio-mreskys-projects.vercel.app/#person",
+  "@id": "https://muhresky.rachmantos.org/#person",
   name: "Muhammad Resky Rachmanto",
   alternateName: "Resky Rachmanto",
   jobTitle: ["Chemical Engineer", "Python Developer", "Data Scientist", "Web Developer"],
   description: "Chemical Engineer, Python Enthusiast, Data Scientist, and Fullstack Developer passionate about technology and innovation.",
-  url: "https://my-portfolio-mreskys-projects.vercel.app/",
+  url: "https://muhresky.rachmantos.org/",
   sameAs: [
     "https://github.com/mresky",
     "https://linkedin.com/in/muhammad-resky-rachmanto"
