@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://my-portfolio-mreskys-projects.vercel.app'
+  const baseUrl = 'https://muhresky.rachmantos.org'
   const currentDate = new Date()
   
   return [
