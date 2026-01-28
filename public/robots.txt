@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://my-portfolio-mreskys-projects.vercel.app/sitemap.xml
+Sitemap: https://muhresky.rachmantos.org/sitemap.xml
 
 # Disallow crawling of irrelevant paths
 Disallow: /_next/

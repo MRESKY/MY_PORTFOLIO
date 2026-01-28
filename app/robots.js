@@ -5,6 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: ['/private/', '/_next/', '/api/'],
     },
-    sitemap: 'https://my-portfolio-mreskys-projects.vercel.app/sitemap.xml',
+    sitemap: 'https://muhresky.rachmantos.org/sitemap.xml',
   }
 }
